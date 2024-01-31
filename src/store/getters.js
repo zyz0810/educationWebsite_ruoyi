@@ -1,0 +1,32 @@
+const getters = {
+  sidebar: state => state.app.sidebar,
+  size: state => state.app.size,
+  device: state => state.app.device,
+  visitedViews: state => state.tagsView.visitedViews,
+  cachedViews: state => state.tagsView.cachedViews,
+  // crm_token: state => state.user.crm_token,
+  // crm_id: state => state.user.crm_id,
+  // avatar: state => state.user.avatar,
+  // name: state => state.user.name,
+  // persona: state => state.user.persona,
+  // introduction: state => state.user.introduction,
+  // roles: state => state.user.roles,
+  // crm_mobile: state => state.user.crm_mobile,
+  // permissions: state => state.user.permissions,
+  permission_routes: state => state.permission.routes,
+  activeMenu: state => state.route.activeMenu,
+  activeSidebarMenu: state => state.route.activeSidebarMenu,
+  activeRouteList: state => state.route.activeRouteList,
+  // source_List: state => state.dict.source_List,
+  // follow_List: state => state.dict.follow_List,
+  // level_List: state => state.dict.level_List,
+  // agent_number: state => state.user.agent_number, //代办数
+  // ineffective_count: state => state.user.ineffective_count, //已过期
+  // will_effective_count: state => state.user.will_effective_count,//即将过期
+  // customer_store_ids: state => state.user.customer_store_ids,//代办事项分配给我的客户跳转客户列表参数
+  // provider_type: state => state.user.provider_type, //服务商状态
+  // provider_status: state => state.user.provider_status, //服务商级别
+  // provider_status_foWeb: state => state.user.provider_status_foWeb, //服务商服务状态:0为开启;1为关闭
+  // provider_id :state => state.user.provider_id  //服务商id
+}
+export default getters

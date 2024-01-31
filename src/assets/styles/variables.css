@@ -1,0 +1,13 @@
+:export {
+  menuText: #666666;
+  siderText: #409eff;
+  menuActiveText: #409EFF;
+  subMenuActiveText: #f4f4f5;
+  menuBg: #FFFFFF;
+  menuHover: rgba(0, 0, 0, 0.08);
+  subMenuBg: #1f2d3d;
+  defultFontColor: #666666;
+  subMenuHover: rgba(0, 0, 0, 0.08);
+  sideBarWidth: 200px;
+  topBarBg: #58a3f7;
+}
