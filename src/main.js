@@ -8,7 +8,6 @@ import Element from 'element-ui'
 import './assets/styles/element-variables.scss'
 // import './assets/iconfont/iconfont.css'
 
-
 // import directive from './directive/directive'
 import '@/assets/styles/index.scss' // global css
 // import '@/assets/styles/ruoyi.scss' // ruoyi css
